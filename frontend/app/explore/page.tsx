@@ -76,7 +76,7 @@ const ExplorePage = () => {
     const plDur = parseInt(planDuration);
     const t_now = GetUTCTimeNow();
     const invalidAfter = t_now + (plDur * 86400);
-    const resp = await subContract.createSubscription(planNumber, subName, "randomImage", "ipfsHash", userAddr, GetUTCTimeNow(), invalidAfter);
+    const resp = await subContract.createSubscription(planNumber, subName, "https://bafybeibgjdxuswuowaha4bokcnwowbbhd6gpniplxbn6no6pcs3xqygyni.ipfs.nftstorage.link/", "ipfsHash", userAddr, GetUTCTimeNow(), invalidAfter);
     return resp;
   }
 
