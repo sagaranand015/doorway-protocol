@@ -1,5 +1,7 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import OfflineUsecase from "@/components/About/OfflineUsecase";
+import OnlineUsecase from "@/components/About/OnlineUseCase";
 import AllPlans from "@/components/AllPlans";
 import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
@@ -25,6 +27,8 @@ export default function Home() {
       <Video />
       <Plan />
       <AllPlans />
+      <OfflineUsecase />
+      <OnlineUsecase />
       {/* <Brands /> */}
       {/* <AboutSectionOne />
       <AboutSectionTwo />
