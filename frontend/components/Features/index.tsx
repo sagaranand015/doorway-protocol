@@ -11,8 +11,8 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="How it Works"
+            paragraph="By minting unique NFTs, users gain seamless access to a variety of services, forming a bridge between the digital and physical worlds."
             center
           />
 

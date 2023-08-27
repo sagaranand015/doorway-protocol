@@ -13,8 +13,8 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="See it in Action!"
+          paragraph="Experience the future of subscriptions firsthand with our demo of the NFT Subscription Engine, where minted NFTs open doors to personalized online and offline services, ushering in a new era of ownership and access."
           center
           mb="80px"
         />
@@ -53,7 +53,7 @@ const Video = () => {
         autoplay={true}
         start={true}
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId=""
         onClose={() => setOpen(false)}
       />
 
