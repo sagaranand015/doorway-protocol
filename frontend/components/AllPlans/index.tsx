@@ -13,12 +13,6 @@ import { GetUTCTimeNow } from "@/app/utils";
 
 declare var window: any
 
-// interface IPlan {
-//   planName: string,
-//   planPrice: string,
-//   planDuration: Number,
-// }
-
 const AllPlans = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
@@ -83,7 +77,7 @@ const AllPlans = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="All Subscription Plans"
+          title="My Subscription Plans"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
           width="665px"

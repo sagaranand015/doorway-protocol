@@ -42,8 +42,9 @@ const Plan = (props: any) => {
   async function handleSubmit(e: any) {
     e.preventDefault()
     console.log("====== form is: ", formData);
-    const resp = CreatePlanContarctCall(formData.planName, formData.planPrice, formData.planDuration);
+    const resp = await CreatePlanContarctCall(formData.planName, formData.planPrice, formData.planDuration);
     console.log("====== Create Plan Contract Response: ", resp);
+    alert(`Transaction submitted. Hash: ${resp.hash}`);
   }
 
   return (
