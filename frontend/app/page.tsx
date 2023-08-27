@@ -1,5 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import AllPlans from "@/components/AllPlans";
 import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
@@ -23,6 +24,7 @@ export default function Home() {
       <Features />
       <Video />
       <Plan />
+      <AllPlans />
       {/* <Brands /> */}
       {/* <AboutSectionOne />
       <AboutSectionTwo />

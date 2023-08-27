@@ -1,4 +1,5 @@
 const PricingBox = (props: {
+  key?: Number;
   price: string;
   duration: string;
   packageName: string;
